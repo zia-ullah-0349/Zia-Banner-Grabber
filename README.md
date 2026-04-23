@@ -17,11 +17,11 @@ To move beyond basic port scanning by actively communicating with open ports to 
 
 This suite shows the real-world development cycle of a security tool: build, test, fail, learn, upgrade.
 
-| Version | File Name | Core Upgrade | Key Technical Lesson | Status |
-| --- | --- | --- |
-| **V.01** | `banner_grabber_1.py` | Basic Banner Grabbing | `socket.send()` & `recv()` - How to "talk" to a port | ✅ Complete |
-| **V.02** | `banner_grabber_2.py` | Smart Protocol Interrogation | Protocol-specific logic: SSH speaks first, HTTP needs `GET` request | ✅ Complete |
-| **V.03** | `banner_grabber_3.py` | Production-Grade Resilience | `try-except`, `socket.timeout`, `decode(errors='ignore')` for real-world chaos | ✅ **Final** |
+1.In Version V.01, the file banner_grabber_1.py focused on the core upgrade of Basic Banner Grabbing. The key technical lesson involved mastering socket.send() and recv() to understand how to "talk" to a port, and the status of this version is Complete.
+
+2.In Version V.02, the file banner_grabber_2.py introduced Smart Protocol Interrogation. This phase taught the lesson of protocol-specific logic, such as recognizing that SSH speaks first while HTTP requires a GET request, and the status is currently Complete.
+
+3.In Version V.03, the file banner_grabber_3.py achieved Production-Grade Resilience. This final iteration focused on handling real-world chaos through technical lessons in try-except, socket.timeout, and decode(errors='ignore'), with the status marked as Final.
 
 ---
 
