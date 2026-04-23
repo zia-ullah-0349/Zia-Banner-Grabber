@@ -1,6 +1,7 @@
-ZIA - Banner Grabber Suite 🚪🐍
+##ZIA - Banner Grabber Suite 🚪🐍
 
 > **Built by ZIA ULLAH | from Kpk, Pakistan** 🇵🇰🛡️
+
 > **"Instructor; Dr Muhammad Kazim"** - 
 
 A specialized Python toolkit for advanced service interrogation and banner grabbing. This project demonstrates how to identify not just open ports, but also the specific software and version running behind them through intelligent, protocol-aware communication and robust error handling.
